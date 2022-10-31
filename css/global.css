@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Poppins&display=swap');
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: 'Karla';
 
 }
 
 body {
+   background-color: var(--light-gray);
 
 }
 
@@ -23,6 +24,10 @@ h1 {
 }
 
 h2 {
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    color: #fff;
+    margin-bottom: 1.125rem;
     
 
 }
